@@ -1,0 +1,294 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch StringRevinArray",
+            "request": "launch",
+            "mainClass": "StringRevinArray",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringinArray",
+            "request": "launch",
+            "mainClass": "stringinArray",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringarray",
+            "request": "launch",
+            "mainClass": "stringarray",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrtut1",
+            "request": "launch",
+            "mainClass": "arrtut1",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ceiling",
+            "request": "launch",
+            "mainClass": "Ceiling",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NetflixLogo",
+            "request": "launch",
+            "mainClass": "NetflixLogo",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pallindrome",
+            "request": "launch",
+            "mainClass": "Pallindrome",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleGUI",
+            "request": "launch",
+            "mainClass": "SimpleGUI",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleWebBrowser",
+            "request": "launch",
+            "mainClass": "SimpleWebBrowser",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TicTacToe",
+            "request": "launch",
+            "mainClass": "TicTacToe",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch arr1",
+            "request": "launch",
+            "mainClass": "arr1",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch array2d",
+            "request": "launch",
+            "mainClass": "array2d",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch array2d1",
+            "request": "launch",
+            "mainClass": "array2d1",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch counting_occurrence",
+            "request": "launch",
+            "mainClass": "counting_occurrence",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch frequencyofduplicatechar",
+            "request": "launch",
+            "mainClass": "frequencyofduplicatechar",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch func_armstrong",
+            "request": "launch",
+            "mainClass": "func_armstrong",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch func_prime",
+            "request": "launch",
+            "mainClass": "func_prime",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch func_swap2nos",
+            "request": "launch",
+            "mainClass": "func_swap2nos",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch howareyou",
+            "request": "launch",
+            "mainClass": "howareyou",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch largestof3numbers",
+            "request": "launch",
+            "mainClass": "largestof3numbers",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop1",
+            "request": "launch",
+            "mainClass": "loop1",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch name",
+            "request": "launch",
+            "mainClass": "name",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern1",
+            "request": "launch",
+            "mainClass": "pattern1",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern5",
+            "request": "launch",
+            "mainClass": "pattern5",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch percentageOfUpperandLower",
+            "request": "launch",
+            "mainClass": "percentageOfUpperandLower",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch rev",
+            "request": "launch",
+            "mainClass": "rev",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch revastring",
+            "request": "launch",
+            "mainClass": "revastring",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch sample1",
+            "request": "launch",
+            "mainClass": "sample1",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringsort",
+            "request": "launch",
+            "mainClass": "stringsort",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch tables",
+            "request": "launch",
+            "mainClass": "tables",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch test122",
+            "request": "launch",
+            "mainClass": "test122",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch test22",
+            "request": "launch",
+            "mainClass": "test22",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch test232",
+            "request": "launch",
+            "mainClass": "test232",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch test33",
+            "request": "launch",
+            "mainClass": "test33",
+            "projectName": "Java WorkSpace_2d83668a"
+        },
+        {
+            "type": "java",
+            "name": "Launch trim1",
+            "request": "launch",
+            "mainClass": "trim1",
+            "projectName": "Java WorkSpace_2d83668a"
+        }
+    ]
+}
