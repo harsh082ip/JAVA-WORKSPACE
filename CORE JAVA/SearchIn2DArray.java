@@ -8,7 +8,7 @@ import java.util.Arrays;
     Here, In this Question The Array is Sorted in row-wise and col-wise manner
  */
 
-public class BinarySearchIn2DArray {
+public class SearchIn2DArray {
     public static void main(String[] args) {
         int[][] arr = {
             {10, 20, 30, 40},
