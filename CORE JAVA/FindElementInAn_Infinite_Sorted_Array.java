@@ -19,7 +19,8 @@ public class FindElementInAn_Infinite_Sorted_Array
             end = end + (end - start + 1) * 2; // Dry Run
             start = temp;
         }
-        return binarySearch(arr, target, start, end);
+        int ans = binarySearch(arr, target, start, end);
+        return ans;
     }
     static int binarySearch(int[] arr, int target, int start, int end)
     {
