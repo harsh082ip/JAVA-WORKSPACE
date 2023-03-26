@@ -1,37 +1,30 @@
 
 public class test232 {
     public static void main(String[] args) {
-        int [] arr= {2,3,4,5,6,7,8,9,15,17,19,30,36,37,38,39,40};
-        int target=15;
-        int ans= searchrange(arr, target);
-        System.out.print(ans);
-
+        int [] arr= {1,2,3,4,5,6,3,2,1};
+ int ans= searchrange(arr);
+ System.out.print(ans);
     }
-    static int searchrange(int [] arr, int target){
+   static  int searchrange (int arr[] ){
         int start=0;
-        int end=1;
-        while(target>arr[end]){
-            int temp= end+1;
-             end = end+(end-start+1)*2;
-             start= temp;
-        }
-        return binarysearch(arr, target,start, end);
-    }
-    static int binarysearch(int[] arr, int target, int start, int end){
-        
+        int end= arr.length-1;
         while(start<=end){
             int mid= start+(end-start)/2;
-            if (target>arr[mid]){
-                start= mid+1;
-            }
-            else if(target<arr[mid]){
-                end= mid-1;
-            }
-            else {
-                return mid;
-            }
+        if(arr[mid]>arr[mid+1]&& arr[mid]>arr[mid-1]){
+            return mid;
         }
-        return -1;
+        if(arr[mid]<arr[mid+1]){
+            start= mid+1;
+        }
+        else if(arr[mid]<arr[mid-1]){
+            end= mid-1;
+        }
+        else {
+            return mid;
+        }
+    
+    }    
+    return -1;
     }
     
 }
