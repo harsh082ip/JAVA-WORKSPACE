@@ -6,6 +6,8 @@ public class bubblesort {
         BubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
+    // After Every pass, Largest element in the remaining array will come at the last, so there 
+    // is no need to sort them, that's why we have use length - i;
     static void BubbleSort(int[] arr)
     {
         boolean swaped;
