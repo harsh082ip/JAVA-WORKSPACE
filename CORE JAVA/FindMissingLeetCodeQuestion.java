@@ -1,8 +1,9 @@
 // https://leetcode.com/problems/missing-number/
 // Task: Find the Missing no
+//{4, 3 ,2,}
 public class FindMissingLeetCodeQuestion {
     public static void main(String[] args) {
-        int[] arr = {3, 0, 1};
+        int[] arr = {5, 3, 0, 1};
         int MissingValue = cyclicSort(arr);
         System.out.println(MissingValue);
     }
