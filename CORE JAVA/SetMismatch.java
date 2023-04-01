@@ -20,7 +20,7 @@ public class SetMismatch {
         // search for first missing number
         for (int index = 0; index < arr.length; index++) {
             if (arr[index] != index + 1) {
-                return new int[] {arr[index], index+1};
+                return new int[] {arr[index],  index+1};
             }
         }
         return new int[] {-1, -1};

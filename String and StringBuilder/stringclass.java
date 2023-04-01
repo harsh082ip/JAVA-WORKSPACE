@@ -4,8 +4,8 @@ public class stringclass {
    
     public static void main(String[] args) {
          /*
-      Strings are Immutable in java which means that object once an object of String is 
-      created cannot be changed futher, the refernce variable can be made to point on a differnt 
+      Strings are Immutable in java which means that once an object of String is 
+      created cannot be changed or destroyed futher, the refernce variable can be made to point on a differnt 
       object 
      */
     String a = "harsh";
@@ -56,6 +56,8 @@ public class stringclass {
      This method only check fot the value
      */
     System.out.println(a1.equals(b1)); // will give true
+
+    StringBuilder builer = new StringBuilder();
     
     }
 }
