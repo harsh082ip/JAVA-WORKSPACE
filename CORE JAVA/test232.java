@@ -1,30 +1,20 @@
 
 public class test232 {
     public static void main(String[] args) {
-        int [] arr= {1,2,3,4,5,6,3,2,1};
- int ans= searchrange(arr);
- System.out.print(ans);
+        int []arr= {1, 2, 40, 6, 7, 9 ,10};
+        int l= arr.length;
+        int max=arr[0];
+        //int min=arr[0];
+        System.out.print(maxno(arr, max, l, 1));
     }
-   static  int searchrange (int arr[] ){
-        int start=0;
-        int end= arr.length-1;
-        while(start<=end){
-            int mid= start+(end-start)/2;
-        if(arr[mid]>arr[mid+1]&& arr[mid]>arr[mid-1]){
-            return mid;
+ static int maxno(int[]arr, int max, int l , int i){
+        if(i==l){
+            return max;
         }
-        if(arr[mid]<arr[mid+1]){
-            start= mid+1;
+        if(max<arr[i]){
+            max= arr[i];
         }
-        else if(arr[mid]<arr[mid-1]){
-            end= mid-1;
-        }
-        else {
-            return mid;
-        }
-    
-    }    
-    return -1;
-    }
+        return maxno(arr, max, l, ++i);
+ }
     
 }

@@ -2,8 +2,8 @@
 public class MaxAndMinInAnArray {
     public static void main(String[] args) {
         int[] arr = {1, 4, 3, -5, -4, 8, 6};
-        int max = Max(arr, 0, arr[0]);
-        int min = Min(arr, 0, arr[0]);
+        int max = Max(arr, 1, arr[0]);
+        int min = Min(arr, 1, arr[0]);
         System.out.println("min = " + min + " max = " + max);
     }
     static int Max(int[] arr, int i, int max)

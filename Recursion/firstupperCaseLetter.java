@@ -1,7 +1,7 @@
 // https://www.geeksforgeeks.org/first-uppercase-letter-in-a-string-iterative-and-recursive/
 public class firstupperCaseLetter {
     public static void main(String[] args) {
-        String s = "geeksforGeeKs";
+        String s = "geeksforgeeks";
         char word = firstUpperCase(s, 0, s.charAt(0));
         System.out.println(word);
     }
