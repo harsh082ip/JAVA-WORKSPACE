@@ -34,7 +34,7 @@ public class LinearSearch {
     }
     static int findIndexEnd(int[] arr, int target, int index)
     {
-        if(index == 0)
+        if(index < 0)
         {
             return -1;
         }
@@ -45,7 +45,7 @@ public class LinearSearch {
         return findIndexEnd(arr, target, index - 1);
     }
 
-    static ArrayList<Integer> list = new ArrayList<>();
+   static ArrayList<Integer> list = new ArrayList<>();
     static void findAllIndex(int[] arr, int target, int index)
     {
         if(index == arr.length)
