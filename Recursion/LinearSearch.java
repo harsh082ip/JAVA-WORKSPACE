@@ -8,7 +8,7 @@ public class LinearSearch {
         System.out.println(findIndexStart(arr, target, 0));
         System.out.println(findIndexEnd(arr, target, arr.length-1));
         findAllIndex(arr, target, 0);
-        System.out.println(list);
+        System.out.println(list);   
         System.out.println(findallIndex(arr, target, 0, new ArrayList<>()));
         System.out.println(findallIndex2(arr, target, 2));
     }
@@ -78,7 +78,7 @@ public class LinearSearch {
         if(index == arr.length)
         {
             return lis;
-        }
+        }   
         if(arr[index] == target)
         {
             lis.add(index);
