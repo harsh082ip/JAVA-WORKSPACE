@@ -19,7 +19,7 @@ public class MergeSort {
         int[] left = mergesort(Arrays.copyOfRange(arr, 0, mid));
         int[] right = mergesort(Arrays.copyOfRange(arr, mid, arr.length));
         return merge(left, right);
-    }
+}
     private static int[] merge(int[] first, int[] second) {
         int mix[] = new int[first.length + second.length];
 
