@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// after every pass we put pivot at the correct index
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr = {6, 5, 4, 3, 2, 1};
