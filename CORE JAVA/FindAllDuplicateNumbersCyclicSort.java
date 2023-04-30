@@ -13,7 +13,7 @@ public class FindAllDuplicateNumbersCyclicSort
                 i++;
             }
         }
-
+       
         List<Integer> ans = new ArrayList<>();
         for (int index = 0; index < arr.length; index++) {
             if (arr[index] != index+1) {
