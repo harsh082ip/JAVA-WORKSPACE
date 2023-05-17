@@ -12,12 +12,6 @@ public class Pallindrome {
             rev=(rev*10)+d;
             x/=10;
         }
-        if(n==rev)
-        {
-            System.out.println(rev+" is a pallindrome no.");
-        }
-        else{
-            System.out.println(rev+" is not a pallindrome no.");
-        }
+       
     }
 }
