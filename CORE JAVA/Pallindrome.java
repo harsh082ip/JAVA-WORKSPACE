@@ -2,7 +2,7 @@ import java.util.*;
 public class Pallindrome {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter a Number To Reverse: ");
+        System.out.println("Enter a Number you want to check is palindome or not  ");
         int x=sc.nextInt();
         int rev=0;
         int n=x;
@@ -12,12 +12,12 @@ public class Pallindrome {
             rev=(rev*10)+d;
             x/=10;
         }
-        if(n==rev)
-        {
-            System.out.println(rev+" is a pallindrome no.");
+        if(n==rev){
+            System.out.println("Number is palindrome");
         }
         else{
-            System.out.println(rev+" is not a pallindrome no.");
+            System.out.println("Number is not palindome");
         }
+       
     }
 }
